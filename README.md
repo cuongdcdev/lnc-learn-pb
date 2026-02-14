@@ -13,6 +13,15 @@ LNC Learn is a powerful, privacy-first AI learning assistant Chrome extension. I
 - **Personalized Dashboard**: Track your collections, mastery levels, and chat history.
 - **Tactile UI**: Stunning "Neo-Pop" / Claymorphism design for a premium feel.
 
+## 🛠 Setup the extension for users
+
+- Download the latest release from the GitHub release page.
+- Unzip the downloaded file.
+- Open your Chromium-based browser (Chrome, Brave, Opera, etc.) and go to the **Extensions** page (`chrome://extensions`).
+- Enable **Developer mode** in the top right corner.
+- Click **Load unpacked** and select the unzipped extension folder.
+- You're all set! 🚀
+
 ## 🛠 Technology Stack
 
 - **Core**: React 18, TypeScript, Vite
