@@ -1,0 +1,159 @@
+{
+  "app": {
+    "title": "LNC Learn",
+    "poweredBy": "Powered by NEAR AI",
+    "discussion": "Discussion",
+    "inputPlaceholder": "Ask a follow-up...",
+    "thinking": "Thinking...",
+    "copyTooltip": "Copy to Clipboard",
+    "settingsTooltip": "Settings",
+    "openDashboardTooltip": "Open My Learning Collection",
+    "footer": "Powered by NEAR.ai private infra - your data stays yours"
+  },
+  "quiz": {
+    "title": "Knowledge Check",
+    "answered": "Answered",
+    "question": "Question",
+    "questionPrefix": "Question",
+    "correct": "Correct!",
+    "incorrect": "Incorrect",
+    "score": "Score",
+    "downloadCSV": "Download CSV",
+    "downloadAnki": "Download for Anki",
+    "checkAnswers": "Check Answers",
+    "resetQuiz": "Reset Quiz"
+  },
+  "resultArea": {
+    "thinking": "THINKING...",
+    "resultSuffix": "Result",
+    "clearTooltip": "Clear Result",
+    "reloadTooltip": "Force Reload"
+  },
+  "contextArea": {
+    "label": "Context",
+    "linkBtn": "Link",
+    "linkTooltip": "Copy Link to Source",
+    "placeholder": "Select text on a web page or type here...",
+    "sourceLabel": "Source"
+  },
+  "onboarding": {
+    "selectLanguage": "Select Language",
+    "selectLanguageDesc": "Choose your preferred language for the interface.",
+    "welcomeTitle": "Welcome to LNC Learn",
+    "welcomeStep": "Transform any webpage into a learning experience with AI-powered explanations, translations, critiques and quizzes.",
+    "startSetup": "Start Setup",
+    "configureTitle": "Configure AI Access",
+    "configureStep": "Enter your NEAR AI API Key to enable the agents.",
+    "useDemo": "Use Demo Mode (FREE AI)",
+    "apiKeyLabel": "NEAR AI API Key",
+    "demoEnabled": "Demo Mode Enabled",
+    "next": "Next",
+    "personalizeTitle": "Personalize Experience",
+    "personalizeStep": "Select your primary language for learning explanations.",
+    "targetLangLabel": "Target Language",
+    "finish": "Finish Setup"
+  },
+  "collection": {
+    "deleteConfirm": "Are you sure you want to delete this item?",
+    "openTooltip": "Open Original Page",
+    "deleteTooltip": "Delete Item",
+    "chatBadge": "Chat",
+    "chatHistory": "Chat History"
+  },
+  "actions": {
+    "save": "Save",
+    "copy": "Copy",
+    "back": "Back",
+    "linguistName": "The Linguist",
+    "tutorName": "The Tutor",
+    "examinerName": "The Examiner",
+    "criticName": "The Critic",
+    "assistantName": "Contextual Assistant"
+  },
+  "contextMenus": {
+    "openFullPage": "Open LNC Learn in full page",
+    "processSelection": "Learn with LNC Learn"
+  },
+  "settings": {
+    "title": "Settings",
+    "backTooltip": "Back to Learning",
+    "apiConfig": "API Configuration",
+    "useDemo": "Use Demo Mode",
+    "apiKeyPlaceholder": "sk-...",
+    "apiKeyHelp": "Get your API key from",
+    "preferences": "Preferences",
+    "targetLanguage": "Target Language",
+    "modelStrategy": "AI Model Strategy",
+    "optimizationGoal": "Optimization Goal",
+    "modelSpeed": "Speed (Qwen) - Faster responses, good for most tasks",
+    "modelReasoning": "Reasoning (DeepSeek) - Smarter, better for complex tasks",
+    "personalization": "Personalization",
+    "soundEffects": "Sound Effects",
+    "userContext": "User Context / Instructions",
+    "userContextHint": "Tell the AI who you are or how you want it to behave. (e.g. \"I am a beginner\", \"Call me Master\", \"Use specific analogies\")",
+    "userContextPlaceholder": "e.g. Treat me like a 5 year old, or explain things using Star Wars references.",
+    "dangerZone": "Danger Zone",
+    "resetWarning": "Resetting sends you back to the onboarding screen and clears all saved data.",
+    "resetButton": "Reset Extension",
+    "saveButton": "Save Changes",
+    "savedAlert": "Settings Saved!",
+    "resetConfirm": "Are you sure? This will remove all your data and restart the onboarding process.",
+    "uiLanguage": "UI Language"
+  },
+  "errors": {
+    "apiKeyMissing": "Error: API Key not found. Please configure in settings.",
+    "connectionError": "Error connecting to AI.",
+    "genericError": "Error: ",
+    "processError": "Sorry, I couldn't process that request."
+  },
+  "dashboard": {
+    "title": "My Learning Collection",
+    "subtitle": "Manage your knowledge base",
+    "exportJSON": "Export JSON",
+    "exportCSV": "Export CSV",
+    "filterAll": "All",
+    "filterLearning": "Learning",
+    "filterMastered": "Mastered",
+    "searchPlaceholder": "Search by title, domain, or content...",
+    "noItems": "No items found",
+    "noItemsHint": "Try adjusting your filters or search query.",
+    "openSidebar": "Open Sidebar"
+  },
+  "detailModal": {
+    "chatHistory": "— Chat History —"
+  },
+  "sidebar": {
+    "title": "LNC Learn",
+    "translate": "Translate",
+    "explain": "Explain",
+    "quiz": "Quiz",
+    "critique": "Critique",
+    "poweredBy": "Powered by NEAR AI"
+  },
+  "tabs": {
+    "translate": "Translate",
+    "explain": "Explain",
+    "quiz": "Quiz",
+    "critique": "Critique"
+  },
+  "collectionCard": {
+    "deleteConfirm": "Are you sure you want to delete this item?",
+    "openOriginal": "Open Original",
+    "deleteItem": "Delete Item",
+    "quiz": "Quiz",
+    "explain": "Explain",
+    "critique": "Critique",
+    "translate": "Translate",
+    "chat": "Chat"
+  },
+  "languages": {
+    "english": "English",
+    "vietnamese": "Vietnamese",
+    "chinese": "Chinese",
+    "korean": "Korean",
+    "japanese": "Japanese",
+    "german": "German"
+  }
+}
+
+

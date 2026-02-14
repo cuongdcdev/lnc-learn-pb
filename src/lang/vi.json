@@ -1,0 +1,157 @@
+{
+  "app": {
+    "title": "LNC Learn",
+    "poweredBy": "Được cung cấp bởi NEAR AI",
+    "discussion": "Thảo luận",
+    "inputPlaceholder": "Hỏi thêm...",
+    "thinking": "Đang suy nghĩ...",
+    "copyTooltip": "Sao chép vào bộ nhớ tạm",
+    "settingsTooltip": "Cài đặt",
+    "openDashboardTooltip": "Mở bộ sưu tập học tập",
+    "footer": "Được hỗ trợ bởi hạ tầng riêng tư NEAR.ai - dữ liệu của bạn là của bạn"
+  },
+  "quiz": {
+    "title": "Kiểm tra kiến thức",
+    "answered": "Đã trả lời",
+    "question": "Câu hỏi",
+    "questionPrefix": "Câu hỏi",
+    "correct": "Chính xác!",
+    "incorrect": "Chưa đúng",
+    "score": "Điểm số",
+    "downloadCSV": "Tải CSV",
+    "downloadAnki": "Tải cho Anki",
+    "checkAnswers": "Kiểm tra đáp án",
+    "resetQuiz": "Làm lại trắc nghiệm"
+  },
+  "resultArea": {
+    "thinking": "ĐANG SUY NGHĨ...",
+    "resultSuffix": "Kết quả",
+    "clearTooltip": "Xóa kết quả",
+    "reloadTooltip": "Tải lại bắt buộc"
+  },
+  "contextArea": {
+    "label": "Ngữ cảnh",
+    "linkBtn": "Liên kết",
+    "linkTooltip": "Sao chép liên kết nguồn",
+    "placeholder": "Chọn văn bản trên trang web hoặc nhập vào đây...",
+    "sourceLabel": "Nguồn"
+  },
+  "onboarding": {
+    "selectLanguage": "Chọn ngôn ngữ",
+    "selectLanguageDesc": "Chọn ngôn ngữ cho giao diện.",
+    "welcomeTitle": "Chào mừng đến với LNC Learn",
+    "welcomeStep": "Biến bất kỳ trang web nào thành trải nghiệm học tập với giải thích, dịch thuật, phản biện và trắc nghiệm bằng AI. Bảo mật dữ liệu hoàn toàn với NEAR Private AI.",
+    "startSetup": "Bắt đầu thiết lập",
+    "configureTitle": "Cấu hình truy cập AI",
+    "configureStep": "Nhập mã NEAR AI API Key để kích hoạt các trợ lý.",
+    "useDemo": "Dùng chế độ Demo (Miễn phí)",
+    "apiKeyLabel": "Mã NEAR AI API Key",
+    "demoEnabled": "Đã bật chế độ Demo",
+    "next": "Tiếp theo",
+    "personalizeTitle": "Cá nhân hóa trải nghiệm",
+    "personalizeStep": "Chọn ngôn ngữ chính để AI giải thích bài học.",
+    "targetLangLabel": "Ngôn ngữ học tập",
+    "finish": "Hoàn tất thiết lập"
+  },
+  "collection": {
+    "deleteConfirm": "Bạn có chắc muốn xóa mục này không?",
+    "openTooltip": "Mở trang gốc",
+    "deleteTooltip": "Xóa mục này",
+    "chatBadge": "Chat",
+    "chatHistory": "Lịch sử Chat"
+  },
+  "actions": {
+    "save": "Lưu",
+    "copy": "Sao chép",
+    "back": "Quay lại",
+    "linguistName": "Trợ lý Dịch thuật",
+    "tutorName": "Trợ lý Giảng dạy",
+    "examinerName": "Trợ lý Kiểm tra",
+    "criticName": "Trợ lý Phản biện",
+    "assistantName": "Trợ lý ngữ cảnh"
+  },
+  "contextMenus": {
+    "openFullPage": "Mở LNC Learn trong trang mới",
+    "processSelection": "Học với LNC Learn"
+  },
+  "settings": {
+    "title": "Cài đặt",
+    "backTooltip": "Quay lại bài học",
+    "apiConfig": "Cấu hình API",
+    "useDemo": "Dùng chế độ Demo (FREE AI)",
+    "apiKeyPlaceholder": "sk-...",
+    "apiKeyHelp": "Lấy mã API của bạn từ",
+    "preferences": "Tùy chọn",
+    "targetLanguage": "Ngôn ngữ đích",
+    "modelStrategy": "Chiến lược AI",
+    "optimizationGoal": "Mục tiêu tối ưu hóa",
+    "modelSpeed": "Tốc độ (Qwen) - Phản hồi nhanh hơn",
+    "modelReasoning": "Suy luận (DeepSeek) - Thông minh hơn",
+    "personalization": "Cá nhân hóa",
+    "soundEffects": "Hiệu ứng âm thanh",
+    "userContext": "Ngữ cảnh / Hướng dẫn",
+    "userContextHint": "Cho AI biết bạn là ai hoặc cách bạn muốn nó cư xử.",
+    "userContextPlaceholder": "vd: Hãy xem tôi như một đứa trẻ 5 tuổi, hoặc giải thích bằng các ví dụ trong Star Wars.",
+    "dangerZone": "Vùng nguy hiểm",
+    "resetWarning": "Đặt lại sẽ đưa bạn trở về màn hình giới thiệu và xóa mọi dữ liệu đã lưu.",
+    "resetButton": "Đặt lại tiện ích",
+    "saveButton": "Lưu thay đổi",
+    "savedAlert": "Đã lưu cài đặt!",
+    "resetConfirm": "Bạn có chắc chắn? Điều này sẽ xóa tất cả dữ liệu của bạn và khởi động lại quá trình thiết lập.",
+    "uiLanguage": "Ngôn ngữ giao diện"
+  },
+  "errors": {
+    "apiKeyMissing": "Lỗi: Không tìm thấy API Key. Vui lòng cấu hình trong cài đặt.",
+    "connectionError": "Lỗi kết nối với AI.",
+    "genericError": "Lỗi: ",
+    "processError": "Xin lỗi, tôi không thể xử lý yêu cầu đó."
+  },
+  "dashboard": {
+    "title": "Bộ sưu tập học tập của tôi",
+    "subtitle": "Quản lý kiến thức của bạn",
+    "exportJSON": "Xuất JSON",
+    "exportCSV": "Xuất CSV",
+    "filterAll": "Tất cả",
+    "filterLearning": "Đang học",
+    "filterMastered": "Đã thuộc",
+    "searchPlaceholder": "Tìm theo tiêu đề, tên miền hoặc nội dung...",
+    "noItems": "Không tìm thấy mục nào",
+    "noItemsHint": "Thử điều chỉnh bộ lọc hoặc từ khóa tìm kiếm.",
+    "openSidebar": "Mở thanh bên"
+  },
+  "collectionCard": {
+    "deleteConfirm": "Are you sure you want to delete this item?",
+    "openOriginal": "Open Original",
+    "deleteItem": "Delete Item",
+    "quiz": "Quiz",
+    "explain": "Explain",
+    "critique": "Critique",
+    "translate": "Translate",
+    "chat": "Chat"
+  },
+  "tabs": {
+    "translate": "Dịch",
+    "explain": "Giải thích",
+    "quiz": "Trắc nghiệm",
+    "critique": "Phản biện"
+  },
+  "detailModal": {
+    "chatHistory": "— Chat History —"
+  },
+  "sidebar": {
+    "title": "LNC Learn",
+    "translate": "Translate",
+    "explain": "Explain",
+    "quiz": "Quiz",
+    "critique": "Critique",
+    "poweredBy": "Powered by NEAR AI"
+  },
+  "languages": {
+    "english": "Tiếng Anh",
+    "vietnamese": "Tiếng Việt",
+    "chinese": "Tiếng Trung",
+    "korean": "Tiếng Hàn",
+    "japanese": "Tiếng Nhật",
+    "german": "Tiếng Đức"
+  }
+}

@@ -1,0 +1,157 @@
+{
+  "app": {
+    "title": "LNC Learn",
+    "poweredBy": "Unterstützt von NEAR AI",
+    "discussion": "Diskussion",
+    "inputPlaceholder": "Nachhaken...",
+    "thinking": "Denkt nach...",
+    "copyTooltip": "In Zwischenablage kopieren",
+    "settingsTooltip": "Einstellungen",
+    "openDashboardTooltip": "Meine Lernsammlung öffnen",
+    "footer": "Unterstützt von NEAR.ai privater Infrastruktur - Ihre Daten gehören Ihnen"
+  },
+  "quiz": {
+    "title": "Wissenstest",
+    "answered": "Beantwortet",
+    "question": "Frage",
+    "correct": "Richtig!",
+    "incorrect": "Falsch",
+    "score": "Ergebnis",
+    "questionPrefix": "Frage",
+    "downloadCSV": "CSV herunterladen",
+    "downloadAnki": "Für Anki herunterladen",
+    "checkAnswers": "Antworten prüfen",
+    "resetQuiz": "Quiz zurücksetzen"
+  },
+  "resultArea": {
+    "thinking": "DENKT NACH...",
+    "resultSuffix": "Ergebnis",
+    "clearTooltip": "Ergebnis löschen",
+    "reloadTooltip": "Neu laden erzwingen"
+  },
+  "contextArea": {
+    "label": "Kontext",
+    "linkBtn": "Link",
+    "linkTooltip": "Link zur Quelle kopieren",
+    "placeholder": "Markieren Sie Text auf einer Webseite oder geben Sie ihn hier ein...",
+    "sourceLabel": "Quelle"
+  },
+  "onboarding": {
+    "selectLanguage": "Sprache auswählen",
+    "selectLanguageDesc": "Wählen Sie Ihre bevorzugte Sprache für die Benutzeroberfläche.",
+    "welcomeTitle": "Willkommen bei LNC Learn",
+    "welcomeStep": "Verwandeln Sie jede Webseite in eine Lernerfahrung mit KI-gestützten Erklärungen, Übersetzungen und Quizfragen.",
+    "startSetup": "Setup starten",
+    "configureTitle": "KI-Zugang konfigurieren",
+    "configureStep": "Geben Sie Ihren NEAR AI API-Schlüssel ein, um die Agenten zu aktivieren.",
+    "useDemo": "Demo-Modus verwenden (Kostenlos)",
+    "apiKeyLabel": "NEAR AI API-Schlüssel",
+    "demoEnabled": "Demo-Modus aktiviert",
+    "next": "Weiter",
+    "personalizeTitle": "Erlebnis personalisieren",
+    "personalizeStep": "Wählen Sie Ihre Hauptsprache für Lern-Erklärungen.",
+    "targetLangLabel": "Zielsprache",
+    "finish": "Setup abschließen"
+  },
+  "collection": {
+    "deleteConfirm": "Sind Sie sicher, dass Sie dieses Element löschen möchten?",
+    "openTooltip": "Originalseite öffnen",
+    "deleteTooltip": "Element löschen",
+    "chatBadge": "Chat",
+    "chatHistory": "Chat-Verlauf"
+  },
+  "actions": {
+    "save": "Speichern",
+    "copy": "Kopieren",
+    "back": "Zurück",
+    "linguistName": "Der Linguist",
+    "tutorName": "Der Tutor",
+    "examinerName": "Der Prüfer",
+    "criticName": "Der Kritiker",
+    "assistantName": "Kontext-Assistent"
+  },
+  "contextMenus": {
+    "openFullPage": "LNC Learn auf ganzer Seite öffnen",
+    "processSelection": "LNC Learn zum Lernen nutzen"
+  },
+  "settings": {
+    "title": "Einstellungen",
+    "backTooltip": "Zurück zum Lernen",
+    "apiConfig": "API-Konfiguration",
+    "useDemo": "Demo-Modus verwenden",
+    "apiKeyPlaceholder": "sk-...",
+    "apiKeyHelp": "Holen Sie sich Ihren API-Schlüssel von",
+    "preferences": "Einstellungen",
+    "targetLanguage": "Zielsprache",
+    "modelStrategy": "KI-Modellstrategie",
+    "optimizationGoal": "Optimierungsziel",
+    "modelSpeed": "Geschwindigkeit (Qwen) - Schnellere Antworten",
+    "modelReasoning": "Logik (DeepSeek) - Intelligenter",
+    "personalization": "Personalisierung",
+    "soundEffects": "Toneffekte",
+    "userContext": "Benutzerkontext / Anweisungen",
+    "userContextHint": "Sagen Sie der KI, wer Sie sind oder wie sie sich verhalten soll.",
+    "userContextPlaceholder": "z.B. Behandle mich wie einen 5-Jährigen oder erkläre es mit Star Wars-Vergleichen.",
+    "dangerZone": "Gefahrenzone",
+    "resetWarning": "Das Zurücksetzen bringt Sie zum Startbildschirm zurück und löscht alle gespeicherten Daten.",
+    "resetButton": "Erweiterung zurücksetzen",
+    "saveButton": "Änderungen speichern",
+    "savedAlert": "Einstellungen gespeichert!",
+    "resetConfirm": "Sind Sie sicher? Dies entfernt alle Ihre Daten und startet den Setup-Prozess neu.",
+    "uiLanguage": "UI-Sprache"
+  },
+  "errors": {
+    "apiKeyMissing": "Fehler: API-Schlüssel nicht gefunden. Bitte in den Einstellungen konfigurieren.",
+    "connectionError": "Fehler beim Verbinden mit der KI.",
+    "genericError": "Fehler: ",
+    "processError": "Entschuldigung, ich konnte diese Anfrage nicht bearbeiten."
+  },
+  "dashboard": {
+    "title": "Meine Lernsammlung",
+    "subtitle": "Verwalten Sie Ihre Wissensdatenbank",
+    "exportJSON": "JSON exportieren",
+    "exportCSV": "CSV exportieren",
+    "filterAll": "Alle",
+    "filterLearning": "Lernen",
+    "filterMastered": "Gemeistert",
+    "searchPlaceholder": "Suche nach Titel, Domain oder Inhalt...",
+    "noItems": "Keine Elemente gefunden",
+    "noItemsHint": "Versuchen Sie, Ihre Filter oder Suchanfrage anzupassen.",
+    "openSidebar": "Seitenleiste öffnen"
+  },
+  "collectionCard": {
+    "deleteConfirm": "Are you sure you want to delete this item?",
+    "openOriginal": "Open Original",
+    "deleteItem": "Delete Item",
+    "quiz": "Quiz",
+    "explain": "Explain",
+    "critique": "Critique",
+    "translate": "Translate",
+    "chat": "Chat"
+  },
+  "tabs": {
+    "translate": "Übersetzen",
+    "explain": "Erklären",
+    "quiz": "Quiz",
+    "critique": "Kritik"
+  },
+  "detailModal": {
+    "chatHistory": "— Chat History —"
+  },
+  "sidebar": {
+    "title": "LNC Learn",
+    "translate": "Übersetzen",
+    "explain": "Erklären",
+    "quiz": "Quiz",
+    "critique": "Kritik",
+    "poweredBy": "Unterstützt von NEAR AI"
+  },
+  "languages": {
+    "english": "Englisch",
+    "vietnamese": "Vietnamesisch",
+    "chinese": "Chinesisch",
+    "korean": "Koreanisch",
+    "japanese": "Japanisch",
+    "german": "Deutsch"
+  }
+}

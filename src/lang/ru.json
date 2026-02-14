@@ -1,0 +1,157 @@
+{
+  "app": {
+    "title": "LNC Learn",
+    "poweredBy": "Работает на NEAR AI",
+    "discussion": "Обсуждение",
+    "inputPlaceholder": "Задайте дополнительный вопрос...",
+    "thinking": "Думаю...",
+    "copyTooltip": "Скопировать в буфер обмена",
+    "settingsTooltip": "Настройки",
+    "openDashboardTooltip": "Открыть мою коллекцию",
+    "footer": "Работает на частной инфраструктуре NEAR.ai - ваши данные остаются вашими"
+  },
+  "quiz": {
+    "title": "Проверка знаний",
+    "answered": "Отвечено",
+    "question": "Вопрос",
+    "questionPrefix": "Вопрос",
+    "correct": "Верно!",
+    "incorrect": "Неверно",
+    "score": "Счет",
+    "downloadCSV": "Скачать CSV",
+    "downloadAnki": "Скачать для Anki",
+    "checkAnswers": "Проверить ответы",
+    "resetQuiz": "Сбросить тест"
+  },
+  "resultArea": {
+    "thinking": "ДУМАЮ...",
+    "resultSuffix": "Результат",
+    "clearTooltip": "Очистить результат",
+    "reloadTooltip": "Принудительная перезагрузка"
+  },
+  "contextArea": {
+    "label": "Контекст",
+    "linkBtn": "Ссылка",
+    "linkTooltip": "Копировать ссылку на источник",
+    "placeholder": "Выделите текст на веб-странице или введите здесь...",
+    "sourceLabel": "Источник"
+  },
+  "onboarding": {
+    "selectLanguage": "Выберите язык",
+    "selectLanguageDesc": "Выберите предпочтительный язык интерфейса.",
+    "welcomeTitle": "Добро пожаловать в LNC Learn",
+    "welcomeStep": "Превратите любую веб-страницу в учебный материал с объяснениями, переводами, критикой и тестами от ИИ.",
+    "startSetup": "Начать настройку",
+    "configureTitle": "Настройка доступа к ИИ",
+    "configureStep": "Введите ваш ключ API NEAR AI, чтобы включить агентов.",
+    "useDemo": "Использовать демо-режим (БЕСПЛАТНЫЙ ИИ)",
+    "apiKeyLabel": "Ключ API NEAR AI",
+    "demoEnabled": "Демо-режим включен",
+    "next": "Далее",
+    "personalizeTitle": "Персонализация",
+    "personalizeStep": "Выберите основной язык для учебных объяснений.",
+    "targetLangLabel": "Целевой язык",
+    "finish": "Завершить настройку"
+  },
+  "collection": {
+    "deleteConfirm": "Вы уверены, что хотите удалить этот элемент?",
+    "openTooltip": "Открыть исходную страницу",
+    "deleteTooltip": "Удалить элемент",
+    "chatBadge": "Чат",
+    "chatHistory": "История чата"
+  },
+  "actions": {
+    "save": "Сохранить",
+    "copy": "Копировать",
+    "back": "Назад",
+    "linguistName": "Лингвист",
+    "tutorName": "Репетитор",
+    "examinerName": "Экзаменатор",
+    "criticName": "Критик",
+    "assistantName": "Контекстный помощник"
+  },
+  "contextMenus": {
+    "openFullPage": "Открыть LNC Learn на всю страницу",
+    "processSelection": "Учить с LNC Learn"
+  },
+  "settings": {
+    "title": "Настройки",
+    "backTooltip": "Вернуться к обучению",
+    "apiConfig": "Настройка API",
+    "useDemo": "Использовать демо-режим",
+    "apiKeyPlaceholder": "sk-...",
+    "apiKeyHelp": "Получите ключ API на",
+    "preferences": "Предпочтения",
+    "targetLanguage": "Целевой язык",
+    "modelStrategy": "Стратегия ИИ",
+    "optimizationGoal": "Цель оптимизации",
+    "modelSpeed": "Скорость (Qwen) - Быстрые ответы, подходит для большинства задач",
+    "modelReasoning": "Рассуждение (DeepSeek) - Умнее, лучше для сложных задач",
+    "personalization": "Персонализация",
+    "soundEffects": "Звуковые эффекты",
+    "userContext": "Контекст пользователя / Инструкции",
+    "userContextHint": "Расскажите ИИ, кто вы или как он должен себя вести (например, «Я новичок», «Называй меня Мастер», «Используй аналогии»).",
+    "userContextPlaceholder": "например, Объясняй как 5-летнему ребенку или используй отсылки к Звездным войнам.",
+    "dangerZone": "Опасная зона",
+    "resetWarning": "Сброс вернет вас на экран приветствия и удалит все сохраненные данные.",
+    "resetButton": "Сбросить расширение",
+    "saveButton": "Сохранить изменения",
+    "savedAlert": "Настройки сохранены!",
+    "resetConfirm": "Вы уверены? Это удалит все ваши данные и перезапустит процесс настройки.",
+    "uiLanguage": "Язык интерфейса"
+  },
+  "errors": {
+    "apiKeyMissing": "Ошибка: Ключ API не найден. Пожалуйста, настройте его в параметрах.",
+    "connectionError": "Ошибка подключения к ИИ.",
+    "genericError": "Ошибка: ",
+    "processError": "Извините, я не смог обработать этот запрос."
+  },
+  "dashboard": {
+    "title": "Моя учебная коллекция",
+    "subtitle": "Управление базой знаний",
+    "exportJSON": "Экспорт JSON",
+    "exportCSV": "Экспорт CSV",
+    "filterAll": "Все",
+    "filterLearning": "Изучаю",
+    "filterMastered": "Освоено",
+    "searchPlaceholder": "Поиск по названию, домену или содержимому...",
+    "noItems": "Элементы не найдены",
+    "noItemsHint": "Попробуйте изменить фильтры или поисковый запрос.",
+    "openSidebar": "Открыть боковую панель"
+  },
+  "detailModal": {
+    "chatHistory": "— История чата —"
+  },
+  "sidebar": {
+    "title": "LNC Learn",
+    "translate": "Перевод",
+    "explain": "Объяснение",
+    "quiz": "Тест",
+    "critique": "Критика",
+    "poweredBy": "Работает на NEAR AI"
+  },
+  "tabs": {
+    "translate": "Перевод",
+    "explain": "Объяснение",
+    "quiz": "Тест",
+    "critique": "Критика"
+  },
+  "collectionCard": {
+    "deleteConfirm": "Вы уверены, что хотите удалить этот элемент?",
+    "openOriginal": "Открыть оригинал",
+    "deleteItem": "Удалить элемент",
+    "quiz": "Тест",
+    "explain": "Объяснение",
+    "critique": "Критика",
+    "translate": "Перевод",
+    "chat": "Чат"
+  },
+  "languages": {
+    "english": "Английский",
+    "vietnamese": "Вьетнамский",
+    "chinese": "Китайский",
+    "korean": "Корейский",
+    "japanese": "Японский",
+    "german": "Немецкий"
+  }
+}

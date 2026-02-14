@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@500;600;700;800&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply bg-lnc-bg text-lnc-ink-grey font-sans antialiased;
+  }
+  h1, h2, h3, h4, h5, h6 {
+    @apply text-lnc-ink-black font-extrabold;
+  }
+}
+
+@layer components {
+  /* Neo-Pop Card */
+  .neo-card {
+    @apply bg-lnc-card rounded-neo shadow-neo-1 border-2 border-lnc-ink-black p-5;
+  }
+  
+  /* Neo-Pop Primary Button (Teal) */
+  .neo-btn-primary {
+    @apply bg-lnc-teal text-white font-extrabold py-2 px-4 rounded-neo-sm shadow-neo-1 
+           border-2 border-lnc-ink-black
+           hover:-translate-y-[1px] hover:-translate-x-[1px] hover:shadow-neo-hover
+           active:translate-y-[2px] active:translate-x-[2px] active:shadow-neo-pressed
+           transition-all duration-100 flex items-center justify-center gap-2 cursor-pointer select-none;
+  }
+
+  /* Neo-Pop Secondary Button (White) */
+  .neo-btn-secondary {
+    @apply bg-white text-lnc-ink-black font-bold py-2 px-4 rounded-neo-sm shadow-neo-2
+           border-2 border-lnc-ink-black
+           hover:-translate-y-[1px] hover:-translate-x-[1px]
+           active:translate-y-[2px] active:translate-x-[2px] active:shadow-neo-pressed
+           transition-all duration-100 cursor-pointer select-none;
+  }
+
+  /* Neo-Pop Tabs/Pills */
+  .neo-tab {
+    @apply bg-white text-lnc-ink-black py-2 px-4 rounded-neo-sm shadow-neo-2 border-2 border-lnc-ink-black
+           hover:-translate-y-[1px] hover:-translate-x-[1px]
+           active:translate-y-[2px] active:translate-x-[2px] active:shadow-neo-pressed
+           transition-all duration-100 cursor-pointer select-none text-sm font-bold;
+  }
+  
+  .neo-tab-active {
+    @apply bg-lnc-orange text-lnc-ink-black shadow-none translate-x-[1px] translate-y-[1px];
+  }
+  
+  /* Neo-Pop Input */
+  .neo-input {
+    @apply bg-white rounded-neo-sm border-2 border-lnc-ink-light px-4 py-2 text-lnc-ink-black
+           placeholder-gray-400 outline-none transition-all duration-150
+           focus:border-lnc-ink-black focus:shadow-neo-focus;
+  }
+  
+  /* Utility for Textarea height from original */
+  .text-lnc-textarea {
+    @apply min-h-[150px];
+  }
+}
+
+.app-icon{
+  background-color: rgb(255 179 107 / var(--tw-bg-opacity, 1));
+}

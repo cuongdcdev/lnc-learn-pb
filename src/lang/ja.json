@@ -1,0 +1,157 @@
+{
+  "app": {
+    "title": "LNC Learn",
+    "poweredBy": "Powered by NEAR AI",
+    "discussion": "ディスカッション",
+    "inputPlaceholder": "追加で質問...",
+    "thinking": "考え中...",
+    "copyTooltip": "クリップボードにコピー",
+    "settingsTooltip": "設定",
+    "openDashboardTooltip": "マイラーニングコレクションを開く",
+    "footer": "NEAR.ai プライベートインフラストラクチャによる提供 - データはあなたのものです"
+  },
+  "quiz": {
+    "title": "知識チェック",
+    "answered": "回答済み",
+    "question": "質問",
+    "correct": "正解！",
+    "incorrect": "不正解",
+    "score": "スコア",
+    "questionPrefix": "質問",
+    "downloadCSV": "CSVをダウンロード",
+    "downloadAnki": "Anki用にダウンロード",
+    "checkAnswers": "答え合わせ",
+    "resetQuiz": "クイズをリセット"
+  },
+  "resultArea": {
+    "thinking": "考え中...",
+    "resultSuffix": "の結果",
+    "clearTooltip": "結果をクリア",
+    "reloadTooltip": "強制リロード"
+  },
+  "contextArea": {
+    "label": "コンテキスト",
+    "linkBtn": "リンク",
+    "linkTooltip": "ソースへのリンクをコピー",
+    "placeholder": "ページ上のテキストを選択するか、ここに入力してください...",
+    "sourceLabel": "ソース"
+  },
+  "onboarding": {
+    "selectLanguage": "言語を選択",
+    "selectLanguageDesc": "インターフェースの表示言語を選択してください。",
+    "welcomeTitle": "LNC Learnへようこそ",
+    "welcomeStep": "AIによる解説、翻訳、クイズで、あらゆるウェブページを学習体験に変えましょう。",
+    "startSetup": "セットアップを開始",
+    "configureTitle": "AIアクセスを設定",
+    "configureStep": "NEAR AI APIキーを入力してエージェントを有効にします。",
+    "useDemo": "デモモードを使用（無料）",
+    "apiKeyLabel": "NEAR AI APIキー",
+    "demoEnabled": "デモモード有効",
+    "next": "次へ",
+    "personalizeTitle": "体験をパーソナライズ",
+    "personalizeStep": "学習解説の主要言語を選択してください。",
+    "targetLangLabel": "ターゲット言語",
+    "finish": "セットアップを完了"
+  },
+  "collection": {
+    "deleteConfirm": "このアイテムを削除してもよろしいですか？",
+    "openTooltip": "元のページを開く",
+    "deleteTooltip": "アイテムを削除",
+    "chatBadge": "チャット",
+    "chatHistory": "チャット履歴"
+  },
+  "actions": {
+    "save": "保存",
+    "copy": "コピー",
+    "back": "戻る",
+    "linguistName": "翻訳エージェント",
+    "tutorName": "教育エージェント",
+    "examinerName": "試験エージェント",
+    "criticName": "批判的エージェント",
+    "assistantName": "コンテキストアシスタント"
+  },
+  "contextMenus": {
+    "openFullPage": "LNC Learnをフルページで開く",
+    "processSelection": "LNC Learnで学習する"
+  },
+  "settings": {
+    "title": "設定",
+    "backTooltip": "学習に戻る",
+    "apiConfig": "API 設定",
+    "useDemo": "デモモードを使用",
+    "apiKeyPlaceholder": "sk-...",
+    "apiKeyHelp": "こちらからAPIキーを取得",
+    "preferences": "環境設定",
+    "targetLanguage": "ターゲット言語",
+    "modelStrategy": "AI モデル戦略",
+    "optimizationGoal": "最適化の目標",
+    "modelSpeed": "速度 (Qwen) - 高速な応答",
+    "modelReasoning": "推論 (DeepSeek) - より高度な処理",
+    "personalization": "パーソナライズ",
+    "soundEffects": "効果音",
+    "userContext": "ユーザーコンテキスト / 指示",
+    "userContextHint": "あなたが誰であるか、またはどのように振る舞ってほしいかをAIに伝えてください。",
+    "userContextPlaceholder": "例：5歳の子供のように扱って、またはスターウォーズの例えを使って説明して。",
+    "dangerZone": "危険エリア",
+    "resetWarning": "リセットすると、オンボーディング画面に戻り、保存されたデータがすべて消去されます。",
+    "resetButton": "拡張機能をリセット",
+    "saveButton": "変更を保存",
+    "savedAlert": "設定を保存しました！",
+    "resetConfirm": "本当によろしいですか？すべてのデータが削除され、セットアップが最初からやり直しになります。",
+    "uiLanguage": "表示言語"
+  },
+  "errors": {
+    "apiKeyMissing": "エラー：APIキーが見つかりません。設定で構成してください。",
+    "connectionError": "AIへの接続エラー。",
+    "genericError": "エラー：",
+    "processError": "申し訳ありません。リクエストを処理できませんでした。"
+  },
+  "dashboard": {
+    "title": "私の学習コレクション",
+    "subtitle": "知識ベースを管理",
+    "exportJSON": "JSONをエクスポート",
+    "exportCSV": "CSVをエクスポート",
+    "filterAll": "すべて",
+    "filterLearning": "学習中",
+    "filterMastered": "習得済み",
+    "searchPlaceholder": "タイトル、ドメイン、またはコンテンツで検索...",
+    "noItems": "アイテムが見つかりません",
+    "noItemsHint": "フィルターや検索クエリを調整してみてください。",
+    "openSidebar": "サイドバーを開く"
+  },
+  "collectionCard": {
+    "deleteConfirm": "Are you sure you want to delete this item?",
+    "openOriginal": "Open Original",
+    "deleteItem": "Delete Item",
+    "quiz": "Quiz",
+    "explain": "Explain",
+    "critique": "Critique",
+    "translate": "Translate",
+    "chat": "Chat"
+  },
+  "tabs": {
+    "translate": "翻訳",
+    "explain": "解説",
+    "quiz": "クイズ",
+    "critique": "批評"
+  },
+  "detailModal": {
+    "chatHistory": "— Chat History —"
+  },
+  "sidebar": {
+    "title": "LNC Learn",
+    "translate": "翻訳",
+    "explain": "解説",
+    "quiz": "クイズ",
+    "critique": "批評",
+    "poweredBy": "Powered by NEAR AI"
+  },
+  "languages": {
+    "english": "英語",
+    "vietnamese": "ベトナム語",
+    "chinese": "中国語",
+    "korean": "韓国語",
+    "japanese": "日本語",
+    "german": "ドイツ語"
+  }
+}

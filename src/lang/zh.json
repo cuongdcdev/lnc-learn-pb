@@ -1,0 +1,157 @@
+{
+  "app": {
+    "title": "LNC Learn",
+    "poweredBy": "由 NEAR AI 提供支持",
+    "discussion": "讨论",
+    "inputPlaceholder": "追问...",
+    "thinking": "思考中...",
+    "copyTooltip": "复制到剪贴板",
+    "settingsTooltip": "设置",
+    "openDashboardTooltip": "打开我的学习收藏",
+    "footer": "由 NEAR.ai 私有基础设施提供支持 - 您的数据属于您"
+  },
+  "quiz": {
+    "title": "知识检测",
+    "answered": "已回答",
+    "question": "问题",
+    "correct": "正确！",
+    "incorrect": "错误",
+    "score": "分数",
+    "questionPrefix": "问题",
+    "downloadCSV": "下载 CSV",
+    "downloadAnki": "下载 Anki 格式",
+    "checkAnswers": "检查答案",
+    "resetQuiz": "重置测验"
+  },
+  "resultArea": {
+    "thinking": "思考中...",
+    "resultSuffix": "结果",
+    "clearTooltip": "清除结果",
+    "reloadTooltip": "强制重新加载"
+  },
+  "contextArea": {
+    "label": "上下文",
+    "linkBtn": "链接",
+    "linkTooltip": "复制原文链接",
+    "placeholder": "选择网页上的文本或在此输入...",
+    "sourceLabel": "来源"
+  },
+  "onboarding": {
+    "selectLanguage": "选择语言",
+    "selectLanguageDesc": "选择您偏好的界面语言。",
+    "welcomeTitle": "欢迎使用 LNC Learn",
+    "welcomeStep": "通过 AI 驱动的解释、翻译和测验，将任何网页转化为学习体验。",
+    "startSetup": "开始设置",
+    "configureTitle": "配置 AI 访问",
+    "configureStep": "输入您的 NEAR AI API 密钥以启用助手。",
+    "useDemo": "使用演示模式（免费）",
+    "apiKeyLabel": "NEAR AI API 密钥",
+    "demoEnabled": "演示模式已启用",
+    "next": "下一步",
+    "personalizeTitle": "个性化体验",
+    "personalizeStep": "选择您的主要学习解释语言。",
+    "targetLangLabel": "目标语言",
+    "finish": "完成设置"
+  },
+  "collection": {
+    "deleteConfirm": "您确定要删除此项目吗？",
+    "openTooltip": "打开原始页面",
+    "deleteTooltip": "删除项目",
+    "chatBadge": "聊天",
+    "chatHistory": "聊天历史"
+  },
+  "actions": {
+    "save": "保存",
+    "copy": "复制",
+    "back": "返回",
+    "linguistName": "翻译助手",
+    "tutorName": "教学助手",
+    "examinerName": "出题助手",
+    "criticName": "评判助手",
+    "assistantName": "上下文助手"
+  },
+  "contextMenus": {
+    "openFullPage": "在全页模式下打开 LNC Learn",
+    "processSelection": "使用 LNC Learn 学习"
+  },
+  "settings": {
+    "title": "设置",
+    "backTooltip": "返回学习",
+    "apiConfig": "API 配置",
+    "useDemo": "使用演示模式",
+    "apiKeyPlaceholder": "sk-...",
+    "apiKeyHelp": "从此处获取您的 API 密钥",
+    "preferences": "偏好设置",
+    "targetLanguage": "目标语言",
+    "modelStrategy": "AI 模型策略",
+    "optimizationGoal": "优化目标",
+    "modelSpeed": "速度 (Qwen) - 响应更快",
+    "modelReasoning": "推理 (DeepSeek) - 更智能",
+    "personalization": "个性化",
+    "soundEffects": "音效",
+    "userContext": "用户上下文 / 指令",
+    "userContextHint": "告诉 AI 你是谁或者你希望它如何表现。",
+    "userContextPlaceholder": "例如：把我当作5岁的孩子，或者用星球大战的例子来解释。",
+    "dangerZone": "危险区域",
+    "resetWarning": "重置将使您返回到入门屏幕并清除所有保存的数据。",
+    "resetButton": "重置扩展",
+    "saveButton": "保存更改",
+    "savedAlert": "设置已保存！",
+    "resetConfirm": "确定吗？這将删除您的所有数据并重新开始入门过程。",
+    "uiLanguage": "界面语言"
+  },
+  "errors": {
+    "apiKeyMissing": "错误：未找到 API 密钥。请在设置中配置。",
+    "connectionError": "连接 AI 时出错。",
+    "genericError": "错误: ",
+    "processError": "抱歉，我无法处理该请求。"
+  },
+  "dashboard": {
+    "title": "我的学习收藏",
+    "subtitle": "管理您的知识库",
+    "exportJSON": "导出 JSON",
+    "exportCSV": "导出 CSV",
+    "filterAll": "全部",
+    "filterLearning": "学习中",
+    "filterMastered": "已掌握",
+    "searchPlaceholder": "按标题、域名或内容搜索...",
+    "noItems": "未找到项目",
+    "noItemsHint": "尝试调整过滤器或搜索查询。",
+    "openSidebar": "打开侧边栏"
+  },
+  "collectionCard": {
+    "deleteConfirm": "Are you sure you want to delete this item?",
+    "openOriginal": "Open Original",
+    "deleteItem": "Delete Item",
+    "quiz": "Quiz",
+    "explain": "Explain",
+    "critique": "Critique",
+    "translate": "Translate",
+    "chat": "Chat"
+  },
+  "tabs": {
+    "translate": "翻译",
+    "explain": "解释",
+    "quiz": "测验",
+    "critique": "点评"
+  },
+  "detailModal": {
+    "chatHistory": "— Chat History —"
+  },
+  "sidebar": {
+    "title": "LNC Learn",
+    "translate": "翻译",
+    "explain": "解释",
+    "quiz": "测验",
+    "critique": "点评",
+    "poweredBy": "Powered by NEAR AI"
+  },
+  "languages": {
+    "english": "英语",
+    "vietnamese": "越南语",
+    "chinese": "中文",
+    "korean": "韩语",
+    "japanese": "日语",
+    "german": "德语"
+  }
+}

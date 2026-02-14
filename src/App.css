@@ -1,0 +1,13 @@
+#root {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.text-lnc-textarea {
+  min-height: 250px;
+}
+
+.app-icon{
+  background-color: rgb(255 179 107 / var(--tw-bg-opacity, 1));
+}

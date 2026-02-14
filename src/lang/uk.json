@@ -1,0 +1,157 @@
+{
+  "app": {
+    "title": "LNC Learn",
+    "poweredBy": "Працює на NEAR AI",
+    "discussion": "Обговорення",
+    "inputPlaceholder": "Задайте додаткове питання...",
+    "thinking": "Думаю...",
+    "copyTooltip": "Скопіювати в буфер обміну",
+    "settingsTooltip": "Налаштування",
+    "openDashboardTooltip": "Відкрити мою колекцію",
+    "footer": "Працює на приватній інфраструктурі NEAR.ai - ваші дані залишаються вашими"
+  },
+  "quiz": {
+    "title": "Перевірка знань",
+    "answered": "Відповіли",
+    "question": "Питання",
+    "questionPrefix": "Питання",
+    "correct": "Вірно!",
+    "incorrect": "Невірно",
+    "score": "Рахунок",
+    "downloadCSV": "Завантажити CSV",
+    "downloadAnki": "Завантажити для Anki",
+    "checkAnswers": "Перевірити відповіді",
+    "resetQuiz": "Скинути тест"
+  },
+  "resultArea": {
+    "thinking": "ДУМАЮ...",
+    "resultSuffix": "Результат",
+    "clearTooltip": "Очистити результат",
+    "reloadTooltip": "Примусове перезавантаження"
+  },
+  "contextArea": {
+    "label": "Контекст",
+    "linkBtn": "Посилання",
+    "linkTooltip": "Копіювати посилання на джерело",
+    "placeholder": "Виділіть текст на веб-сторінці або введіть тут...",
+    "sourceLabel": "Джерело"
+  },
+  "onboarding": {
+    "selectLanguage": "Виберіть мову",
+    "selectLanguageDesc": "Виберіть бажану мову інтерфейсу.",
+    "welcomeTitle": "Ласкаво просимо в LNC Learn",
+    "welcomeStep": "Перетворіть будь-яку веб-сторінку на навчальний матеріал з поясненнями, перекладами, критикою та тестами від ШІ.",
+    "startSetup": "Почати налаштування",
+    "configureTitle": "Налаштування доступу до ШІ",
+    "configureStep": "Введіть ваш ключ API NEAR AI, щоб увімкнути агентів.",
+    "useDemo": "Використовувати демо-режим (БЕЗКОШТОВНИЙ ШІ)",
+    "apiKeyLabel": "Ключ API NEAR AI",
+    "demoEnabled": "Демо-режим увімкнено",
+    "next": "Далі",
+    "personalizeTitle": "Персоналізація",
+    "personalizeStep": "Виберіть основну мову для навчальних пояснень.",
+    "targetLangLabel": "Цільова мова",
+    "finish": "Завершити налаштування"
+  },
+  "collection": {
+    "deleteConfirm": "Ви впевнені, що хочете видалити цей елемент?",
+    "openTooltip": "Відкрити вихідну сторінку",
+    "deleteTooltip": "Видалити елемент",
+    "chatBadge": "Чат",
+    "chatHistory": "Історія чату"
+  },
+  "actions": {
+    "save": "Зберегти",
+    "copy": "Копіювати",
+    "back": "Назад",
+    "linguistName": "Лінгвіст",
+    "tutorName": "Репетитор",
+    "examinerName": "Екзаменатор",
+    "criticName": "Критик",
+    "assistantName": "Контекстний помічник"
+  },
+  "contextMenus": {
+    "openFullPage": "Відкрити LNC Learn на всю сторінку",
+    "processSelection": "Вчити з LNC Learn"
+  },
+  "settings": {
+    "title": "Налаштування",
+    "backTooltip": "Повернутися до навчання",
+    "apiConfig": "Налаштування API",
+    "useDemo": "Використовувати демо-режим",
+    "apiKeyPlaceholder": "sk-...",
+    "apiKeyHelp": "Отримайте ключ API на",
+    "preferences": "Вподобання",
+    "targetLanguage": "Цільова мова",
+    "modelStrategy": "Стратегія ШІ",
+    "optimizationGoal": "Мета оптимізації",
+    "modelSpeed": "Швидкість (Qwen) - Швидкі відповіді, підходить для більшості завдань",
+    "modelReasoning": "Міркування (DeepSeek) - Розумніша, краще для складних завдань",
+    "personalization": "Персоналізація",
+    "soundEffects": "Звукові ефекти",
+    "userContext": "Контекст користувача / Інструкції",
+    "userContextHint": "Розкажіть ШІ, хто ви або як він повинен поводитися (наприклад, «Я новачок», «Називай мене Майстер», «Використовуй аналогії»).",
+    "userContextPlaceholder": "наприклад, Пояснюй як 5-річній дитині або використовуй відсилки до Зоряних війн.",
+    "dangerZone": "Небезпечна зона",
+    "resetWarning": "Скидання поверне вас на екран привітання та видалить усі збережені дані.",
+    "resetButton": "Скинути розширення",
+    "saveButton": "Зберегти зміни",
+    "savedAlert": "Налаштування збережено!",
+    "resetConfirm": "Ви впевнені? Це видалить усі ваші дані та перезапустить процес налаштування.",
+    "uiLanguage": "Мова інтерфейсу"
+  },
+  "errors": {
+    "apiKeyMissing": "Помилка: Ключ API не знайдено. Будь ласка, налаштуйте його в параметрах.",
+    "connectionError": "Помилка підключення до ШІ.",
+    "genericError": "Помилка: ",
+    "processError": "Вибачте, я не зміг обробити цей запит."
+  },
+  "dashboard": {
+    "title": "Моя навчальна колекція",
+    "subtitle": "Керування базою знань",
+    "exportJSON": "Експорт JSON",
+    "exportCSV": "Експорт CSV",
+    "filterAll": "Всі",
+    "filterLearning": "Вивчаю",
+    "filterMastered": "Засвоєно",
+    "searchPlaceholder": "Пошук за назвою, доменом або вмістом...",
+    "noItems": "Елементи не знайдено",
+    "noItemsHint": "Спробуйте змінити фільтри або пошуковий запит.",
+    "openSidebar": "Відкрити бічну панель"
+  },
+  "detailModal": {
+    "chatHistory": "— Історія чату —"
+  },
+  "sidebar": {
+    "title": "LNC Learn",
+    "translate": "Переклад",
+    "explain": "Пояснення",
+    "quiz": "Тест",
+    "critique": "Критика",
+    "poweredBy": "Працює на NEAR AI"
+  },
+  "tabs": {
+    "translate": "Переклад",
+    "explain": "Пояснення",
+    "quiz": "Тест",
+    "critique": "Критика"
+  },
+  "collectionCard": {
+    "deleteConfirm": "Ви впевнені, що хочете видалити цей елемент?",
+    "openOriginal": "Відкрити оригінал",
+    "deleteItem": "Видалити елемент",
+    "quiz": "Тест",
+    "explain": "Пояснення",
+    "critique": "Критика",
+    "translate": "Переклад",
+    "chat": "Чат"
+  },
+  "languages": {
+    "english": "Англійська",
+    "vietnamese": "В'єтнамська",
+    "chinese": "Китайська",
+    "korean": "Корейська",
+    "japanese": "Японська",
+    "german": "Німецька"
+  }
+}
