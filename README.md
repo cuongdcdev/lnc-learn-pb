@@ -4,14 +4,20 @@ LNC Learn is a powerful, privacy-first AI learning assistant Chrome extension. I
 
 ## 🚀 Key Features
 
-- **Multi-Agent Intelligence**: Switch between AI agents tailored for specific tasks:
-  - **Tutor**: Breaks down complex concepts with clear explanations.
-  - **Examiner**: Generates interactive quizzes based on your reading.
-  - **Linguist**: High-precision translation and grammar breakdown.
-  - **Critic**: Challenges perspectives and provides peer-review style feedback.
-- **Cryptographic Verification**: Proves your data was processed in a Secure Trusted Execution Environment (TEE) on NEAR Private AI Cloud.
-- **Personalized Dashboard**: Track your collections, mastery levels, and chat history.
-- **Tactile UI**: Stunning "Neo-Pop" / Claymorphism design for a premium feel.
+LNC Learn is built with a multi-agent system designed to fit every learning style:
+
+- **👑 Context is King**: Automatically reads page metadata (Title, Domain, Headers) to provide precise, context-aware answers instead of generic AI responses.
+- **🌍 The Translator**: Context-aware translation for language learners that avoids literal, robotic errors. Supports 7+ languages!
+- **👶 Feynman Tutor**: Explains complex documents and technical jargon like you're 5 years old. Master any topic in minutes.
+- **🛡️ Critique (Devil's Advocate)**: Challenges your biases with sharp counter-arguments, logical checks, and risk analysis.
+- **✍️ The Examiner**: Instantly generates Active Recall quizzes to test your retention. No more passive reading!
+- **💬 Never Lose Your Flow**: Every mode includes a persistent **Follow-up Chat**, turning static AI answers into dynamic discussions.
+- **🔒 Cryptographic Privacy**: Powered by **NEAR Private AI**, your data is processed in a Secure Trusted Execution Environment (TEE). We provide cryptographic proof that your data remains yours.
+- **🧠 Personal Knowledge Base**: Your "Learning Collection" automatically organizes everything you learn. Search, filter, and revisit your insights anytime.
+- **🎨 AI Tailored to Your Mind**: Tell the AI who you are. Use specific personas, learning levels, or favorite analogies through custom instructions.
+- **📇 Anki & LMS Export**: Turn your quizzes into flashcards instantly with Anki CSV or generic CSV exports.
+- **🔓 No Vendor Lock-in**: Export your entire collection as JSON/CSV. Your data stays under your control.
+- **🌐 Multilingual Support**: Fully localized for English, Vietnamese, Chinese, Japanese, Russian, Ukrainian, and German.
 
 ## 🛠 Setup the extension for users
 
